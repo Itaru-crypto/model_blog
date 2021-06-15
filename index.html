@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./scss/style.css">
+  <title>ブログ</title>
+</head>
+<body>
+  <!-- header -->
+  <header class="hd">
+    <h1 class="hd-ttl">Travel<span class="space"></span>Blog</h1>
+    <nav class="hd-nav">
+      <ul class="hd-list">
+        <li class="hd-item"><a href="#new">NEW</a></li>
+        <li class="hd-item"><a href="#column">COLUMN</a></li>
+        <li class="hd-item"><a href="#series">SERIES</a></li>
+        <li class="hd-item"><a href="#q&a">Q&A</a></li>
+        <li class="hd-item"><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!-- new -->
+  <section class="new">
+    <div class="wrapper">
+      <article class="new-post">
+        <div class="coverSlide hover-lighten inview">
+          <img class="img-zoom" src="img/pic01.jpg" alt="">
+        </div>
+        <h1 class="new-hd">Title</h1>
+        <p class="new-text">この写真は海外の観光地、リゾート地から厳選して、掲載しています。コロナ禍でなかなか旅行がいけない今だからこそ、海外に思いをはせてみてはいかがですか？</p>
+        <a href="#each" class="more">READ<span class="space"></span>MORE</a>
+      </article>
+      <article class="new-post">
+        <div class="coverSlide hover-lighten inview">
+          <img class="img-zoom" src="img/pic02.jpg" alt="">
+        </div>
+        <h1 class="new-hd">Title</h1>
+        <p class="new-text">この写真は海外の観光地、リゾート地から厳選して、掲載しています。コロナ禍でなかなか旅行がいけない今だからこそ、海外に思いをはせてみてはいかがですか？</p>
+        <a href="#each" class="more">READ<span class="space"></span>MORE</a>
+      </article>
+      <article class="new-post">
+        <div class="coverSlide hover-lighten inview">
+          <img class="img-zoom" src="img/pic04.jpg" alt="">
+        </div>
+        <h1 class="new-hd">Title</h1>
+        <p class="new-text">この写真は海外の観光地、リゾート地から厳選して、掲載しています。コロナ禍でなかなか旅行がいけない今だからこそ、海外に思いをはせてみてはいかがですか？</p>
+        <a href="#each" class="more">READ<span class="space"></span>MORE</a>
+      </article>
+    </div>   
+  </section>
+
+  <div id="container" class="wrapper">
+    <main>
+      <!-- column -->
+      <section class="column">
+        <article class="column-post">
+          <h1 class="column-hd">This is title section.</h1>
+          <p class="column-date">2021/01/01<span class="space"></span>category01</p>
+          <img src="img/pic03.jpg" alt="">
+          <p class="column-text">このセクションでは旅行先で起きた出来事や日本との違いなどをご紹介していきたいと思います。グルメやショッピング、美容などの情報も載せていくのでよければご覧ください。
+          </p>
+          <a href="#each" class="more">Read<span class="space"></span>More</a>
+        </article>
+        <article class="column-post">
+          <h1 class="column-hd">This is title section.</h1>
+          <p class="column-date">2021/01/01<span class="space"></span>category02</p>
+          <img src="img/pic05.jpg" alt="">
+          <p class="column-text">このセクションでは旅行先で起きた出来事や日本との違いなどをご紹介していきたいと思います。グルメやショッピング、美容などの情報も載せていくのでよければご覧ください。
+          </p>
+          <a href="#each" class="more">Read<span class="space"></span>More</a>
+        </article>
+        <article class="column-post">
+          <h1 class="column-hd">This is title section.</h1>
+          <p class="column-date">2021/01/01<span class="space"></span>category03</p>
+          <img src="img/pic06.jpg" alt="">
+          <p class="column-text">このセクションでは旅行先で起きた出来事や日本との違いなどをご紹介していきたいと思います。グルメやショッピング、美容などの情報も載せていくのでよければご覧ください。
+          </p>
+          <a href="#each" class="more">Read<span class="space"></span>More</a>
+        </article>
+      </section>
+    </main>
+    <aside id="sidebar">
+      <!-- profile -->
+      <section class="profile">
+        <img src="./img/profile.jpg" alt="" id="profile-img">
+        <p class="profile-name">Natalie Brown</p>
+        <table class="profile-table row" cellPadding="10px">
+          <tr>
+            <th>Age</th>
+            <td>26</td>
+          </tr>
+          <tr>
+            <th>Achievement</th>
+            <td>*****</td>
+          </tr>
+          <tr>
+            <th>Mail</th>
+            <td>example@gamil.com</td>
+          </tr>
+          </tr>
+        </table>
+      </section>
+      
+      <!-- ranking -->
+      <section class="ranking">
+        <h1 class="ranking-hd">Ranking</h1>
+        <div class="ranking-post">
+          <img src="./img/pic07.jpg" alt="">
+          <p class="ranking-text">ここにはおすすめの旅行先のランキングが入ります。時期によってランキングが変更するため、定期的にご確認ください。</p>
+        </div>
+        <div class="ranking-post">
+          <img src="./img/pic08.jpg" alt="">
+          <p class="ranking-text">ここにはおすすめの旅行先のランキングが入ります。時期によってランキングが変更するため、定期的にご確認ください。</p>
+        </div>
+        <div class="ranking-post">
+          <img src="./img/pic09.jpg" alt="">
+          <p class="ranking-text">ここにはおすすめの旅行先のランキングが入ります。時期によってランキングが変更するため、定期的にご確認ください。</p>
+        </div>
+      </section>
+      
+      <!-- archive -->
+      <section class="archive">
+        <h1 class="archive-hd">Archive</h1>
+        <div class="archive-box">
+          <p class="archive-date">2021年3月(*)</p>
+          <p class="archive-date">2021年2月(*)</p>
+          <p class="archive-date">2021年1月(*)</p>
+          <p class="archive-date">2020年12月(*)</p>
+          <p class="archive-date">2020年11月(*)</p>
+          <p class="archive-date">2020年10月(*)</p>
+          <p class="archive-date">2020年9月(*)</p>
+          <p class="archive-date">2020年8月(*)</p>
+          <p class="archive-date">2020年7月(*)</p>
+          <p class="archive-date">2020年6月(*)</p>
+          <p class="archive-date">2020年5月(*)</p>
+        </div>
+      </section>
+    </aside>
+  </div>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer-inner wrapper">
+      <section class="footer-sec">
+        <p class="footer-hd">About</p>
+        <p>このブログサイトは架空のものであり、実際に運営されているわけではありません。使用している写真はしっかりとライセンス許諾をいただいているものを使用しているので、無断転載はお控えください。</p>
+      </section>
+      <section class="footer-sec">
+        <p class="footer-hd">Menu</p>
+        <nav class="footer-nav">
+          <ul class="footer-list">
+            <li class="footer-item"><a href="#new">New</a></li>
+            <li class="footer-item"><a href="#category">CATEGORY</a></li>
+            <li class="footer-item"><a href="#column">COLUMN</a></li>
+            <li class="footer-item"><a href="#series">SERIES</a></li>
+            <li class="footer-item"><a href="#q&a">Q&A</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section class="footer-sec">
+        <p class="footer-hd">Twitter</p>
+        <a class="twitter-timeline" data-height="500" href="https://twitter.com/Twitter?ref_src=twsrc%5Etfw">Tweets by
+          Twitter</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </section>
+    </div>
+    <p class="copyright">©︎Example Blog for Tourists 2021</p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
